@@ -19,10 +19,12 @@ secretMessage.shift();
 secretMessage.unshift('Programming');
 // console.log(secretMessage);
 
+secretMessage.splice(6, 5, 'know');
+console.log(secretMessage);
 
-secretMessage.splice(6,4);
+// secretMessage.splice(6,4);
 // console.log(secretMessage);
-secretMessage[6] = 'know';
+// secretMessage[6] = 'know';
 // console.log(secretMessage);
 
 console.log(secretMessage.join(" "));
